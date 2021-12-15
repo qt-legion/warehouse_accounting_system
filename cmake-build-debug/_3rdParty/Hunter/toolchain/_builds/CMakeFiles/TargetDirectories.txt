@@ -1,0 +1,2 @@
+/home/qt-legion/workspace/03-lab-03-shared-ptr-qt-legion/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/rebuild_cache.dir
+/home/qt-legion/workspace/03-lab-03-shared-ptr-qt-legion/cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/edit_cache.dir
