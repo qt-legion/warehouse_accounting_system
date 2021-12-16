@@ -1,5 +1,6 @@
+#include <cstdio>
+#include <iomanip>
 #include <iostream>
-#include <stdio.h>
 #include <string>
 #include <sys/ioctl.h>
 #include <unistd.h>
@@ -101,14 +102,11 @@ public:
 };
 
 std::ostream &operator<<(std::ostream &out, const tovar &t) {
-  out << "Name: "
-      << "'" << t.name << "'\n";
-  out << "Company: "
-      << "'" << t.company << "'\n";
+  out << "Name: " << t.name << "\n";
+  out << "Company: " << t.company << "\n";
   out << "Quantity: " << t.kolvo << "\n";
   out << "Date of input: " << t.input_date << "\n";
   out << "Position: " << t.position << "\n";
-  out << "Special features: \n"
-      << "    Fragile: " << t.fragile << "\n";
+  out << "Fragileness: " << t.fragile << "\n";
   return out;
 }

@@ -322,7 +322,8 @@ int main() {
       for (int i = 0; i < vctr.size(); i++) {
         std::cout << vctr[i];
       }
+      state = 0;
     }
-    return 0;
   }
+  return 0;
 }
