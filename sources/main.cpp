@@ -65,7 +65,7 @@ int main() {
 
   while (state != 7) {
     if (state == 0) {
-      std::cout << "//Main screen//\n";
+      std::cout << "\n//Main screen//\n";
       std::cout << "\nhome/\n\n";
       std::cout << "1: Add new element\n2: Remove element\n3: Find element "
                    "with specific parameters\n4: Delete all elements "
@@ -93,7 +93,7 @@ int main() {
         std::cin >> parameter2;
         for (int i = 0; i < vctr.size(); i++) {
           if (vctr[i].get_name() == parameter2) {
-            std::cout << "Confirm deletion(Y/N):\n";
+            std::cout << "\nConfirm deletion(Y/N):\n\n";
             std::cout << vctr[i];
             std::string add;
             std::cin >> add;
@@ -113,7 +113,7 @@ int main() {
         std::cin >> parameter2;
         for (int i = 0; i < vctr.size(); i++) {
           if (vctr[i].get_company() == parameter2) {
-            std::cout << "Confirm deletion(Y/N):\n";
+            std::cout << "\nConfirm deletion(Y/N):\n\n";
             std::cout << vctr[i];
             std::string add;
             std::cin >> add;
@@ -133,7 +133,7 @@ int main() {
         std::cin >> parameter2;
         for (int i = 0; i < vctr.size(); i++) {
           if (vctr[i].get_kolvo() == parameter2) {
-            std::cout << "Confirm deletion(Y/N):\n";
+            std::cout << "\nConfirm deletion(Y/N):\n\n";
             std::cout << vctr[i];
             std::string add;
             std::cin >> add;
@@ -153,7 +153,7 @@ int main() {
         std::cin >> parameter2;
         for (int i = 0; i < vctr.size(); i++) {
           if (vctr[i].get_input_date() == parameter2) {
-            std::cout << "Confirm deletion(Y/N):\n";
+            std::cout << "\nConfirm deletion(Y/N):\n\n";
             std::cout << vctr[i];
             std::string add;
             std::cin >> add;
@@ -173,7 +173,7 @@ int main() {
         std::cin >> parameter2;
         for (int i = 0; i < vctr.size(); i++) {
           if (vctr[i].get_position() == parameter2) {
-            std::cout << "Confirm deletion(Y/N):\n";
+            std::cout << "\nConfirm deletion(Y/N):\n\n";
             std::cout << vctr[i];
             std::string add;
             std::cin >> add;
@@ -193,7 +193,7 @@ int main() {
         std::cin >> parameter2;
         for (int i = 0; i < vctr.size(); i++) {
           if (vctr[i].get_fragile() == parameter2) {
-            std::cout << "Confirm deletion(Y/N):\n";
+            std::cout << "\nConfirm deletion(Y/N):\n\n";
             std::cout << vctr[i];
             std::string add;
             std::cin >> add;
