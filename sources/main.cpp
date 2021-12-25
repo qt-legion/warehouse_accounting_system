@@ -62,14 +62,9 @@ int file_read(std::string path, std::vector<tovar> vctr) {
 int main() {
   int state = 0;
   std::vector<tovar> vctr;
-  struct winsize w;
-  ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
 
   while (state != 7) {
     if (state == 0) {
-      for (int i = 0; i < w.ws_col / 4 - 5; i++) {
-        std::cout << " ";
-      }
       std::cout << "//Main screen//\n";
       std::cout << "\nhome/\n\n";
       std::cout << "1: Add new element\n2: Remove element\n3: Find element "
