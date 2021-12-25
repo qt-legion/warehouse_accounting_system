@@ -66,6 +66,14 @@ public:
     position = std::move(t.position);
     fragile = std::move(t.fragile);
   }
+  ~tovar() {
+    name = nullptr;
+    company = nullptr;
+    kolvo = 0;
+    input_date = nullptr;
+    position = nullptr;
+    fragile = false;
+  }
 
   auto operator=(const tovar &t) {
     if (this != &t) {
